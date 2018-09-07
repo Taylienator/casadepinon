@@ -1,0 +1,100 @@
+
+body{
+    width:1200px;
+    margin:auto;
+    margin-top:auto;
+    
+}
+
+h1{
+    text-align:center;
+    background-color: turquoise;
+    padding:15px 15px 10px 10px;
+    color:white;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color:turquoise;
+    overflow:hidden;
+    
+}
+
+li{
+    float:left;
+   
+
+}
+
+li a{
+    
+    display:block;
+    text-decoration:none;
+    padding:14px 16px;
+    text-align:center;
+    color:white;
+}
+
+li a:hover{
+    background-color:lightseagreen;
+}  
+
+/*image container*/
+.container{
+    width:1200px;
+    margin:auto;
+    position:relative;
+}
+
+.center{
+    position: absolute;
+    top:85%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    
+   
+
+
+}
+
+#casahouse{
+
+    height:700px;
+    width:1200px;
+    margin:auto;
+    opacity:1;
+
+}
+
+
+
+.center a{
+    text-decoration:none;
+    color:black;
+    background-color:white;
+    padding:10px 16px;
+    margin:0;
+    
+
+}
+
+#arrow{
+    color:white;
+   font-size:35px;
+   transform: rotate(-15deg);
+   position: absolute;
+   left:49%;
+    margin-top:53%;
+   animation: bouncearrow 1s infinite; 
+}
+
+ @keyframes bouncearrow{
+0%{top: 0px;}
+50%{top: 20px;}    
+100%{top: 0px;} 
+   
+
+}
